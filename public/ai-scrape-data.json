@@ -1,0 +1,228 @@
+{
+  "website_info": {
+    "name": "Example Company",
+    "url": "https://example.com",
+    "description": "Expert professional services in Example City, ST. Quality solutions and customer satisfaction guaranteed. Contact us today for a free consultation!",
+    "keywords": "professional services, Example City ST, quality service, reliable solutions, expert services",
+    "last_updated": "2024-01-01T00:00:00Z"
+  },
+  "services": [
+    "Garage Door Installation",
+    "Residential Garage Door Installation",
+    "Commercial Garage Door Installation",
+    "Custom Garage Door Design",
+    "Garage Door Repair",
+    "Broken Spring Repair",
+    "Cable Replacement",
+    "Track Alignment",
+    "Panel Replacement",
+    "Emergency Garage Door Repair",
+    "Garage Door Maintenance",
+    "Tune-Up and Inspection",
+    "Lubrication and Balancing",
+    "Preventive Maintenance Plans",
+    "Garage Door Openers",
+    "Opener Installation",
+    "Opener Repair",
+    "Smart Garage Door Openers",
+    "Garage Door Replacement",
+    "Steel Garage Doors",
+    "Wooden Garage Doors",
+    "Glass & Aluminum Garage Doors",
+    "Insulated Garage Doors"
+  ],
+  "locations": [
+    "Example City, ST",
+    "North Town, ST",
+    "South Town, ST",
+    "East Village, ST",
+    "West Borough, ST",
+    "Central District, ST",
+    "Riverside, ST",
+    "Hillside, ST",
+    "Lakeside, ST",
+    "Mountain View, ST",
+    "Valley Springs, ST",
+    "Meadowbrook, ST",
+    "Oak Grove, ST",
+    "Pine Hills, ST",
+    "Maple Ridge, ST"
+  ],
+  "contact": {
+    "address": "123 Main Street, Example City, ST 12345",
+    "phone": "(555) 123-4567",
+    "email": "info@example.com"
+  },
+  "social_links": [
+    "https://www.facebook.com/examplecompany",
+    "https://twitter.com/examplecompany",
+    "https://www.linkedin.com/company/examplecompany",
+    "https://www.instagram.com/examplecompany"
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "title": "Example Company - Professional Services in Example City, ST",
+      "description": "Expert professional services in Example City, ST. Quality solutions and customer satisfaction guaranteed. Contact us today for a free consultation!",
+      "type": "homepage"
+    },
+    {
+      "path": "/about",
+      "title": "About Example Company",
+      "description": "Learn about our professional Professional Services and expertise",
+      "type": "about"
+    },
+    {
+      "path": "/contact",
+      "title": "Contact Example Company",
+      "description": "Get in touch with our expert team for your Professional Services needs",
+      "type": "contact"
+    }
+  ],
+  "service_pages": [
+    {
+      "path": "/garage-door-installation/",
+      "title": "Garage Door Installation Services in Example City, ST, North Town, ST, South Town, ST, East Village, ST",
+      "description": "Professional Garage Door Installation services in Example City, ST, North Town, ST, South Town, ST, East Village, ST. Expert craftsmanship and Contact us today for a free consultation!",
+      "type": "service"
+    },
+    {
+      "path": "/garage-door-repair/",
+      "title": "Garage Door Repair Services in Example City, ST, North Town, ST, South Town, ST, East Village, ST",
+      "description": "Professional Garage Door Repair services in Example City, ST, North Town, ST, South Town, ST, East Village, ST. Expert craftsmanship and Contact us today for a free consultation!",
+      "type": "service"
+    },
+    {
+      "path": "/garage-door-maintenance/",
+      "title": "Garage Door Maintenance Services in Example City, ST, North Town, ST, South Town, ST, East Village, ST",
+      "description": "Professional Garage Door Maintenance services in Example City, ST, North Town, ST, South Town, ST, East Village, ST. Expert craftsmanship and Contact us today for a free consultation!",
+      "type": "service"
+    },
+    {
+      "path": "/garage-door-openers/",
+      "title": "Garage Door Openers Services in Example City, ST, North Town, ST, South Town, ST, East Village, ST",
+      "description": "Professional Garage Door Openers services in Example City, ST, North Town, ST, South Town, ST, East Village, ST. Expert craftsmanship and Contact us today for a free consultation!",
+      "type": "service"
+    },
+    {
+      "path": "/garage-door-replacement/",
+      "title": "Garage Door Replacement Services in Example City, ST, North Town, ST, South Town, ST, East Village, ST",
+      "description": "Professional Garage Door Replacement services in Example City, ST, North Town, ST, South Town, ST, East Village, ST. Expert craftsmanship and Contact us today for a free consultation!",
+      "type": "service"
+    }
+  ],
+  "location_pages": [
+    {
+      "path": "/example-city-st/",
+      "title": "Example Company in Example City, ST",
+      "description": "Professional garage door installation, garage door repair, garage door maintenance services in Example City, ST",
+      "type": "location"
+    },
+    {
+      "path": "/north-town-st/",
+      "title": "Example Company in North Town, ST",
+      "description": "Professional garage door installation, garage door repair, garage door maintenance services in North Town, ST",
+      "type": "location"
+    },
+    {
+      "path": "/south-town-st/",
+      "title": "Example Company in South Town, ST",
+      "description": "Professional garage door installation, garage door repair, garage door maintenance services in South Town, ST",
+      "type": "location"
+    },
+    {
+      "path": "/east-village-st/",
+      "title": "Example Company in East Village, ST",
+      "description": "Professional garage door installation, garage door repair, garage door maintenance services in East Village, ST",
+      "type": "location"
+    },
+    {
+      "path": "/west-borough-st/",
+      "title": "Example Company in West Borough, ST",
+      "description": "Professional garage door installation, garage door repair, garage door maintenance services in West Borough, ST",
+      "type": "location"
+    },
+    {
+      "path": "/central-district-st/",
+      "title": "Example Company in Central District, ST",
+      "description": "Professional garage door installation, garage door repair, garage door maintenance services in Central District, ST",
+      "type": "location"
+    },
+    {
+      "path": "/riverside-st/",
+      "title": "Example Company in Riverside, ST",
+      "description": "Professional garage door installation, garage door repair, garage door maintenance services in Riverside, ST",
+      "type": "location"
+    },
+    {
+      "path": "/hillside-st/",
+      "title": "Example Company in Hillside, ST",
+      "description": "Professional garage door installation, garage door repair, garage door maintenance services in Hillside, ST",
+      "type": "location"
+    },
+    {
+      "path": "/lakeside-st/",
+      "title": "Example Company in Lakeside, ST",
+      "description": "Professional garage door installation, garage door repair, garage door maintenance services in Lakeside, ST",
+      "type": "location"
+    },
+    {
+      "path": "/mountain-view-st/",
+      "title": "Example Company in Mountain View, ST",
+      "description": "Professional garage door installation, garage door repair, garage door maintenance services in Mountain View, ST",
+      "type": "location"
+    }
+  ],
+  "blog_topics": [
+    "Industry Tips and Tricks",
+    "Best Practices Guide",
+    "How to Choose the Right Solution",
+    "Common Problems and Solutions",
+    "Latest Technology Trends"
+  ],
+  "seo_data": {
+    "primary_keyword": "Professional Services",
+    "secondary_keywords": [
+      "Garage Door Installation",
+      "Garage Door Repair",
+      "Garage Door Maintenance",
+      "Garage Door Openers",
+      "Garage Door Replacement"
+    ],
+    "target_locations": [
+      "Example City, ST",
+      "North Town, ST",
+      "South Town, ST",
+      "East Village, ST",
+      "West Borough, ST",
+      "Central District, ST",
+      "Riverside, ST",
+      "Hillside, ST",
+      "Lakeside, ST",
+      "Mountain View, ST",
+      "Valley Springs, ST",
+      "Meadowbrook, ST",
+      "Oak Grove, ST",
+      "Pine Hills, ST",
+      "Maple Ridge, ST"
+    ],
+    "business_type": "Service Provider",
+    "service_areas": [
+      "Example City, ST",
+      "North Town, ST",
+      "South Town, ST",
+      "East Village, ST",
+      "West Borough, ST",
+      "Central District, ST",
+      "Riverside, ST",
+      "Hillside, ST",
+      "Lakeside, ST",
+      "Mountain View, ST",
+      "Valley Springs, ST",
+      "Meadowbrook, ST",
+      "Oak Grove, ST",
+      "Pine Hills, ST",
+      "Maple Ridge, ST"
+    ]
+  }
+}

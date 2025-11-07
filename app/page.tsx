@@ -1,0 +1,152 @@
+import { Metadata } from 'next';
+import { generateMetadataFromConfig, generateStructuredData } from "@/lib/seo-metadata";
+
+// Import custom hero and sections
+import MikesCustomHero from "@/components/home/MikesCustomHero";
+import WhyChooseMikesSection from "@/components/home/WhyChooseMikesSection";
+import BrandsCarouselSection from "@/components/sections/brands-carousel-section";
+import OurServicesSection from "@/components/sections/services-section";
+import ProcessStepsSection from "@/components/sections/process-steps-section";
+import WhatSetsUsApartSection from "@/components/sections/what-sets-apart-section";
+import AboutUsSimpleSection from "@/components/sections/about-us-simple-section";
+import OurPortfolioSection from "@/components/sections/potfolio-section";
+import RecentBlogsSection from "@/components/sections/blog-section";
+import InfiniteTestimonialSlider from "@/components/ui/testimonials3/infinite-testimonial-slider";
+import CTASection from "@/components/sections/cta-section";
+import ServiceAreasThinSection from "@/components/sections/service-areas-thin-section";
+
+// Generate metadata using the hybrid approach
+export const metadata: Metadata = generateMetadataFromConfig('/');
+
+export default function Home() {
+
+  // Generate structured data for homepage
+  const structuredData = generateStructuredData('/');
+
+  // Testimonials for Mike's Garage Door Repair Center
+  const mikesTestimonials = [
+    {
+      id: '1',
+      name: 'Jennifer Martinez',
+      role: 'Homeowner',
+      company: 'Bedford, TX',
+      profilePic: '',
+      rating: 5,
+      review: 'Called Mike\'s at 8 PM with a broken spring, and they had someone at my house within the hour! The technician was professional, explained everything clearly, and fixed it on the spot. This is customer service done right.'
+    },
+    {
+      id: '2',
+      name: 'Robert Chen',
+      role: 'Property Manager',
+      company: 'Arlington, TX',
+      profilePic: '',
+      rating: 5,
+      review: 'We manage 15 properties across the DFW area, and Mike\'s is our go-to for all garage door work. They\'re reliable, fairly priced, and their work always passes inspection. That\'s why we keep calling them back.'
+    },
+    {
+      id: '3',
+      name: 'Sarah Williams',
+      role: 'Homeowner',
+      company: 'Dallas, TX',
+      profilePic: '',
+      rating: 5,
+      review: 'The new garage door completely transformed our home\'s curb appeal! Mike\'s team helped us choose the perfect style, and the installation was flawless. Three neighbors have already asked for their number.'
+    },
+    {
+      id: '4',
+      name: 'David Thompson',
+      role: 'Business Owner',
+      company: 'Fort Worth, TX',
+      profilePic: '',
+      rating: 5,
+      review: 'Our warehouse needed urgent garage door repairs, and Mike\'s came through when others couldn\'t. Same-day service, professional crew, and pricing that didn\'t break the bank. Highly recommend for commercial work.'
+    },
+    {
+      id: '5',
+      name: 'Emily Rodriguez',
+      role: 'Homeowner',
+      company: 'Plano, TX',
+      profilePic: '',
+      rating: 5,
+      review: 'Honestly, I was nervous about getting a smart garage door opener, but Mike\'s technician walked me through everything. Now I can open my garage from my phone, and it\'s been working perfectly for 6 months!'
+    },
+    {
+      id: '6',
+      name: 'Michael Johnson',
+      role: 'Homeowner',
+      company: 'Irving, TX',
+      profilePic: '',
+      rating: 5,
+      review: 'What impressed me most was their honesty. They could have sold us a new door, but instead they repaired ours for a fraction of the cost. That\'s integrity, and that\'s why they\'ve earned a customer for life.'
+    },
+    {
+      id: '7',
+      name: 'Lisa Anderson',
+      role: 'Homeowner',
+      company: 'Grapevine, TX',
+      profilePic: '',
+      rating: 5,
+      review: 'The garage door was making terrible noises and barely opening. Mike\'s diagnosed the problem immediately, had the parts on the truck, and finished the repair in under an hour. Professional, fast, and reasonably priced!'
+    },
+    {
+      id: '8',
+      name: 'James Parker',
+      role: 'Homeowner',
+      company: 'Carrollton, TX',
+      profilePic: '',
+      rating: 5,
+      review: 'After getting quotes from three companies, Mike\'s offered the best value and the fastest timeline. The installation crew was courteous, cleaned up everything, and the door works like a dream. Worth every penny.'
+    }
+  ];
+
+  return (
+    <>
+      {/* Add structured data scripts */}
+      {structuredData.map((script) => (
+        <script
+          key={script.id}
+          type={script.type}
+          dangerouslySetInnerHTML={{ __html: script.children }}
+        />
+      ))}
+      
+      <div>
+        {/* Custom Hero Section for Mike's Garage Door */}
+        <MikesCustomHero />
+
+        {/* Why Choose Mike's Section - New Unique Content */}
+        <WhyChooseMikesSection />
+        
+        {/* Services Section - Now with unique descriptions and Mike's images */}
+        <OurServicesSection />
+
+        {/* Process Steps */}
+        <ProcessStepsSection />
+
+        {/* What Sets Us Apart */}
+        <WhatSetsUsApartSection />
+{/* Brands Carousel */}
+        <BrandsCarouselSection />
+        {/* Simple About Us */}
+        <AboutUsSimpleSection />
+
+        
+
+        {/* Testimonials Section - Infinite Slider */}
+        <InfiniteTestimonialSlider testimonials={mikesTestimonials} speed={25} />
+
+        {/* Service Areas (Thin) */}
+        <ServiceAreasThinSection />
+
+        {/* Portfolio Section */}
+        <OurPortfolioSection />
+          
+        {/* Blog Section */}
+        <RecentBlogsSection />
+        
+        {/* General CTA Section */}
+        <CTASection />
+      </div>
+    </>
+  );
+}

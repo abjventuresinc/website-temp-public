@@ -1,0 +1,355 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Background Colors */
+    --background: 0 0% 98%; /* #FAFBFD - Light accessible background */
+    --background-secondary: 0 0% 97%; /* #F8F8F8 - Secondary background */
+    --background-tertiary: 0 0% 95%; /* #F2F2F2 - Tertiary background */
+    
+    /* Text Colors */
+    --text-light: 0 0% 96%; /* #F5F5F5 - Light text for dark backgrounds (not pure white) */
+    --text-dark: 0 0% 9%; /* #161616 - Dark text for light backgrounds (improved contrast) */
+    --text-muted: 0 0% 45%; /* #737373 - Muted text */
+    --text-secondary: 0 0% 25%; /* #404040 - Secondary text */
+    
+    /* Enhanced Text Colors */
+    --text-primary: 0 0% 7%; /* #121212 - Primary text */
+    --text-primary-light: 0 0% 9%; /* #161616 - Light primary text (improved contrast) */
+    --text-secondary-light: 0 0% 30%; /* #4D4D4D - Light secondary text */
+    --text-muted-light: 0 0% 55%; /* #8C8C8C - Light muted text */
+    
+    /* Primary Colors */
+    --primary: 219 77% 64%; /* #5e86ea - Primary color */
+    --primary-foreground: 0 0% 98%; /* #FAFAFA - Text on primary */
+    --primary-hover: 219 77% 58%; /* Darker primary hover */
+    
+    /* Accent Colors */
+    --accent: 219 77% 64%; /* #5e86ea - Accent color (same as primary) */
+    --accent-foreground: 0 0% 98%; /* #FAFAFA - Text on accent */
+    --accent-hover: 219 77% 58%; /* Darker accent hover */
+    
+    /* Secondary Colors */
+    --secondary: 233 41% 24%; /* #242a56 - Secondary color */
+    --secondary-foreground: 0 0% 98%; /* #FAFAFA - Text on secondary */
+    --secondary-hover: 233 41% 20%; /* Darker secondary hover */
+    
+    /* Tertiary Colors */
+    --tertiary: 0 0% 94%; /* #F0F0F0 - Tertiary color */
+    --tertiary-foreground: 0 0% 7%; /* #121212 - Text on tertiary */
+    --tertiary-hover: 0 0% 92%; /* #EBEBEB - Tertiary hover */
+    
+    /* Grayscale Colors - Avoiding pure white and black */
+    --gray-50: 0 0% 98%; /* #FAFAFA - Lightest (not pure white) */
+    --gray-100: 0 0% 96%; /* #F5F5F5 - Very light */
+    --gray-200: 0 0% 92%; /* #EBEBEB - Light */
+    --gray-300: 0 0% 88%; /* #E0E0E0 - Light-medium */
+    --gray-400: 0 0% 75%; /* #BFBFBF - Medium */
+    --gray-500: 0 0% 60%; /* #999999 - Medium-dark */
+    --gray-600: 0 0% 45%; /* #737373 - Dark-medium */
+    --gray-700: 0 0% 30%; /* #4D4D4D - Dark */
+    --gray-800: 0 0% 15%; /* #262626 - Very dark */
+    --gray-900: 0 0% 7%; /* #121212 - Darkest (not pure black) */
+    
+    /* Dark Mode Grayscale Colors */
+    --gray-50-dark: 0 0% 98%; /* #FAFAFA - Lightest for dark mode */
+    --gray-100-dark: 0 0% 96%; /* #F5F5F5 - Very light for dark mode */
+    --gray-200-dark: 0 0% 92%; /* #EBEBEB - Light for dark mode */
+    --gray-300-dark: 0 0% 88%; /* #E0E0E0 - Light-medium for dark mode */
+    --gray-400-dark: 0 0% 75%; /* #BFBFBF - Medium for dark mode */
+    --gray-500-dark: 0 0% 60%; /* #999999 - Medium-dark for dark mode */
+    --gray-600-dark: 0 0% 45%; /* #737373 - Dark-medium for dark mode */
+    --gray-700-dark: 0 0% 30%; /* #4D4D4D - Dark for dark mode */
+    --gray-800-dark: 0 0% 15%; /* #262626 - Very dark for dark mode */
+    --gray-900-dark: 0 0% 7%; /* #121212 - Darkest for dark mode (not pure black) */
+    
+    /* UI Colors - Avoiding pure white and black */
+    --foreground: 0 0% 9%; /* #161616 - Main foreground text (improved contrast) */
+    --card: 0 0% 98%; /* #FAFAFA - Light card background (not pure white) */
+    --card-foreground: 0 0% 9%; /* #161616 - Dark text (improved contrast) */
+    --popover: 0 0% 98%; /* #FAFAFA - Light popover background (not pure white) */
+    --popover-foreground: 0 0% 9%; /* #161616 - Dark text (improved contrast) */
+    --muted: 0 0% 96%; /* #F5F5F5 */
+    --muted-foreground: 0 0% 45%; /* #737373 */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%; /* Light text on destructive */
+    --border: 0 0% 90%; /* #E6E6E6 */
+    --input: 0 0% 90%; /* #E6E6E6 */
+    --ring: 0 0% 7%; /* #121212 - Dark ring (not pure black) */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Background Colors */
+    --background: 0 0% 7%; /* #121212 - Dark accessible background */
+    --background-secondary: 0 0% 9%; /* #171717 - Secondary dark background */
+    --background-tertiary: 0 0% 11%; /* #1C1C1C - Tertiary dark background */
+    
+    /* Text Colors - Dark mode optimized */
+    --text-light: 0 0% 96%; /* #F5F5F5 - Light text for dark backgrounds (not pure white) */
+    --text-dark: 0 0% 7%; /* #121212 - Dark text for light backgrounds (not pure black) */
+    --text-muted: 0 0% 65%; /* #A6A6A6 - Muted text on dark */
+    --text-secondary: 0 0% 80%; /* #CCCCCC - Secondary text on dark */
+    
+    /* Enhanced Text Colors - Dark mode */
+    --text-primary: 0 0% 96%; /* #F5F5F5 - Primary text on dark */
+    --text-primary-light: 0 0% 88%; /* #E0E0E0 - Light primary text on dark */
+    --text-secondary-light: 0 0% 75%; /* #BFBFBF - Light secondary text on dark */
+    --text-muted-light: 0 0% 60%; /* #999999 - Light muted text on dark */
+    
+    /* Primary Colors */
+    --primary: 219 77% 64%; /* #5e86ea - Primary dark */
+    --primary-foreground: 0 0% 98%; /* #FAFBFD - Text on primary dark */
+    --primary-hover: 219 77% 58%; /* Darker primary hover */
+    
+    /* Accent Colors */
+    --accent: 219 77% 64%; /* #5e86ea - Accent dark (same as primary) */
+    --accent-foreground: 0 0% 98%; /* #FAFBFD - Text on accent dark */
+    --accent-hover: 219 77% 58%; /* Darker accent hover */
+    
+    /* Secondary Colors */
+    --secondary: 0 0% 12%; /* #1F1F1F - Secondary dark */
+    --secondary-foreground: 0 0% 98%; /* #FAFBFD - Text on secondary dark */
+    --secondary-hover: 0 0% 17%; /* #2B2B2B - Secondary hover dark */
+    
+    /* Tertiary Colors */
+    --tertiary: 0 0% 10%; /* #1A1A1A - Tertiary dark */
+    --tertiary-foreground: 0 0% 98%; /* #FAFBFD - Text on tertiary dark */
+    --tertiary-hover: 0 0% 15%; /* #262626 - Tertiary hover dark */
+    
+    /* UI Colors - Dark mode avoiding pure white and black */
+    --foreground: 0 0% 96%; /* #F5F5F5 - Main foreground text (not pure white) */
+    --card: 0 0% 7%; /* #121212 - Dark card background (not pure black) */
+    --card-foreground: 0 0% 96%; /* #F5F5F5 - Light text (not pure white) */
+    --popover: 0 0% 7%; /* #121212 - Dark popover background (not pure black) */
+    --popover-foreground: 0 0% 96%; /* #F5F5F5 - Light text (not pure white) */
+    --muted: 0 0% 12%; /* #1F1F1F */
+    --muted-foreground: 0 0% 65%; /* #A6A6A6 */
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 96%; /* Light text on destructive (not pure white) */
+    --border: 0 0% 15%; /* #262626 */
+    --input: 0 0% 15%; /* #262626 */
+    --ring: 0 0% 96%; /* #F5F5F5 - Light ring (not pure white) */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html {
+    font-family: system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:bg-primary-hover transition-colors;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-300 transition-colors;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Text Color Utilities - Following Style Guidelines */
+  .text-light-primary {
+    @apply text-gray-100; /* #F5F5F5 - Lightest readable text (not pure white) */
+  }
+
+  .text-light-secondary {
+    @apply text-gray-200; /* #E5E7EB - Light secondary text */
+  }
+
+  .text-light-muted {
+    @apply text-gray-300; /* #D1D5DB - Light muted text */
+  }
+
+  .text-dark-primary {
+    @apply text-gray-900; /* #161616 - Darkest readable text (improved contrast) */
+  }
+
+  .text-dark-secondary {
+    @apply text-gray-700; /* #374151 - Dark secondary text */
+  }
+
+  .text-dark-muted {
+    @apply text-gray-500; /* #6B7280 - Dark muted text */
+  }
+
+  /* Footer-specific text utilities */
+  .footer-text-primary {
+    @apply text-gray-100; /* Headers and important text */
+  }
+
+  .footer-text-secondary {
+    @apply text-gray-200; /* Main readable text */
+  }
+
+  .footer-text-muted {
+    @apply text-gray-300; /* Secondary text and links */
+  }
+
+  .footer-text-subtle {
+    @apply text-gray-400; /* Icons and subtle elements */
+  }
+}
+
+@layer utilities {
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+  
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+
+  /* Line clamp utilities for text truncation */
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  /* Logo Slider Animations - Vertical (keeping for backward compatibility) */
+  .animate-scroll-slow {
+    animation: scroll-vertical 20s linear infinite;
+  }
+  
+  .animate-scroll-normal {
+    animation: scroll-vertical 15s linear infinite;
+  }
+  
+  .animate-scroll-fast {
+    animation: scroll-vertical 10s linear infinite;
+  }
+
+  /* Logo Slider Animations - Horizontal */
+  .animate-scroll-horizontal-slow {
+    animation: scroll-horizontal 25s linear infinite;
+  }
+  
+  .animate-scroll-horizontal-normal {
+    animation: scroll-horizontal 20s linear infinite;
+  }
+  
+  .animate-scroll-horizontal-fast {
+    animation: scroll-horizontal 15s linear infinite;
+  }
+
+  /* Gradient Animations */
+  .animate-gradient-x {
+    animation: gradient-x 15s ease infinite;
+  }
+  
+  .animate-gradient-y {
+    animation: gradient-y 15s ease infinite;
+  }
+  
+  .animate-gradient-xy {
+    animation: gradient-xy 15s ease infinite;
+  }
+}
+
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@keyframes scroll-vertical {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
+}
+
+@keyframes gradient-x {
+  0%, 100% {
+    background-size: 200% 200%;
+    background-position: left center;
+  }
+  50% {
+    background-size: 200% 200%;
+    background-position: right center;
+  }
+}
+
+@keyframes gradient-y {
+  0%, 100% {
+    background-size: 400% 400%;
+    background-position: center top;
+  }
+  50% {
+    background-size: 400% 400%;
+    background-position: center bottom;
+  }
+}
+
+@keyframes gradient-xy {
+  0%, 100% {
+    background-size: 400% 400%;
+    background-position: left center;
+  }
+  25% {
+    background-size: 400% 400%;
+    background-position: center top;
+  }
+  50% {
+    background-size: 400% 400%;
+    background-position: right center;
+  }
+  75% {
+    background-size: 400% 400%;
+    background-position: center bottom;
+  }
+}

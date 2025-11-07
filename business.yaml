@@ -1,0 +1,457 @@
+# -----------------------------
+# Business Info
+# -----------------------------
+BUSINESS_NAME: "Mike's Garage Door Repair Center"
+WEBSITE_URL: "https://mikesgaragedoorrepaircenter.com/"
+TONE: "Professional"
+LOGO_URL: ""
+TAGLINE: "Your Trusted Garage Door Service Provider"
+
+
+# -----------------------------
+# Business Categories (Google My Business)
+# -----------------------------
+CATEGORIES:
+  PRIMARY: "Garage Door Service"
+  SECONDARY:
+    - "Garage Door Repair"
+    - "Garage Door Installation"
+    - "Home Services"
+    - "Contractor"
+
+
+# -----------------------------
+# Core Services with Sub-Services
+# -----------------------------
+SERVICES:
+  - NAME: "Garage Door Installation"
+    URL: "/garage-door-installation/"
+    SUB_SERVICES:
+      - NAME: "Residential Garage Door Installation"
+        URL: "/residential-garage-door-installation/"
+      - NAME: "Commercial Garage Door Installation"
+        URL: "/commercial-garage-door-installation/"
+      - NAME: "Custom Garage Door Design"
+        URL: "/custom-garage-doors/"
+  
+  - NAME: "Garage Door Repair"
+    URL: "/garage-door-repair/"
+    SUB_SERVICES:
+      - NAME: "Broken Spring Repair"
+        URL: "/broken-spring-replacement/"
+      - NAME: "Cable Replacement"
+        URL: "/garage-door-cable-repair/"
+      - NAME: "Track Alignment"
+        URL: "/track-alignment/"
+      - NAME: "Panel Replacement"
+        URL: "/panel-replacement/"
+      - NAME: "Emergency Garage Door Repair"
+        URL: "/emergency-garage-door-service/"
+  
+  - NAME: "Garage Door Maintenance"
+    URL: "/garage-door-maintenance/"
+    SUB_SERVICES:
+      - NAME: "Tune-Up and Inspection"
+        URL: "/tune-up-inspection/"
+      - NAME: "Lubrication and Balancing"
+        URL: "/lubrication-balancing/"
+      - NAME: "Preventive Maintenance Plans"
+        URL: "/preventive-maintenance/"
+  
+  - NAME: "Garage Door Openers"
+    URL: "/garage-door-openers/"
+    SUB_SERVICES:
+      - NAME: "Opener Installation"
+        URL: "/opener-installation/"
+      - NAME: "Opener Repair"
+        URL: "/garage-door-opener-repair/"
+      - NAME: "Smart Garage Door Openers"
+        URL: "/smart-garage-door-openers/"
+  
+  - NAME: "Garage Door Replacement"
+    URL: "/garage-door-replacement/"
+    SUB_SERVICES:
+      - NAME: "Steel Garage Doors"
+        URL: "/steel-garage-doors/"
+      - NAME: "Wooden Garage Doors"
+        URL: "/wooden-garage-doors/"
+      - NAME: "Glass & Aluminum Garage Doors"
+        URL: "/glass-aluminum-garage-doors/"
+      - NAME: "Insulated Garage Doors"
+        URL: "/insulated-garage-doors/"
+
+
+# -----------------------------
+# Flattened Service Lists (for quick access)
+# -----------------------------
+CORE_SERVICES:
+  - "Garage Door Installation"
+  - "Garage Door Repair"
+  - "Garage Door Maintenance"
+  - "Garage Door Openers"
+  - "Garage Door Replacement"
+
+
+CORE_SERVICES_URLS:
+  - "/garage-door-installation/"
+  - "/garage-door-repair/"
+  - "/garage-door-maintenance/"
+  - "/garage-door-openers/"
+  - "/garage-door-replacement/"
+
+
+ALL_SERVICES:
+  - "Garage Door Installation"
+  - "Residential Garage Door Installation"
+  - "Commercial Garage Door Installation"
+  - "Custom Garage Door Design"
+  - "Garage Door Repair"
+  - "Broken Spring Repair"
+  - "Cable Replacement"
+  - "Track Alignment"
+  - "Panel Replacement"
+  - "Emergency Garage Door Repair"
+  - "Garage Door Maintenance"
+  - "Tune-Up and Inspection"
+  - "Lubrication and Balancing"
+  - "Preventive Maintenance Plans"
+  - "Garage Door Openers"
+  - "Opener Installation"
+  - "Opener Repair"
+  - "Smart Garage Door Openers"
+  - "Garage Door Replacement"
+  - "Steel Garage Doors"
+  - "Wooden Garage Doors"
+  - "Glass & Aluminum Garage Doors"
+  - "Insulated Garage Doors"
+
+
+ALL_SERVICES_URLS:
+  - "/garage-door-installation/"
+  - "/residential-garage-door-installation/"
+  - "/commercial-garage-door-installation/"
+  - "/custom-garage-doors/"
+  - "/garage-door-repair/"
+  - "/broken-spring-replacement/"
+  - "/garage-door-cable-repair/"
+  - "/track-alignment/"
+  - "/panel-replacement/"
+  - "/emergency-garage-door-service/"
+  - "/garage-door-maintenance/"
+  - "/tune-up-inspection/"
+  - "/lubrication-balancing/"
+  - "/preventive-maintenance/"
+  - "/garage-door-openers/"
+  - "/opener-installation/"
+  - "/garage-door-opener-repair/"
+  - "/smart-garage-door-openers/"
+  - "/garage-door-replacement/"
+  - "/steel-garage-doors/"
+  - "/wooden-garage-doors/"
+  - "/glass-aluminum-garage-doors/"
+  - "/insulated-garage-doors/"
+
+
+# -----------------------------
+# Locations (Service Areas)
+# -----------------------------
+LOCATIONS:
+  - CITY: "Bedford"
+    STATE: "TX"
+  - CITY: "Addison"
+    STATE: "TX"
+  - CITY: "Arlington"
+    STATE: "TX"
+  - CITY: "Azle"
+    STATE: "TX"
+  - CITY: "Carrollton"
+    STATE: "TX"
+  - CITY: "Cedar Hill"
+    STATE: "TX"
+  - CITY: "Colleyville"
+    STATE: "TX"
+  - CITY: "Coppell"
+    STATE: "TX"
+  - CITY: "Dallas"
+    STATE: "TX"
+  - CITY: "DeSoto"
+    STATE: "TX"
+  - CITY: "Duncanville"
+    STATE: "TX"
+  - CITY: "Euless"
+    STATE: "TX"
+  - CITY: "Farmers Branch"
+    STATE: "TX"
+  - CITY: "Flower Mound"
+    STATE: "TX"
+  - CITY: "Fort Worth"
+    STATE: "TX"
+  - CITY: "Frisco"
+    STATE: "TX"
+  - CITY: "Grand Prairie"
+    STATE: "TX"
+  - CITY: "Grapevine"
+    STATE: "TX"
+  - CITY: "Haltom City"
+    STATE: "TX"
+  - CITY: "Haslet"
+    STATE: "TX"
+  - CITY: "Highland Park"
+    STATE: "TX"
+  - CITY: "Highland Village"
+    STATE: "TX"
+  - CITY: "Hurst"
+    STATE: "TX"
+  - CITY: "Irving"
+    STATE: "TX"
+  - CITY: "Keller"
+    STATE: "TX"
+  - CITY: "Kennedale"
+    STATE: "TX"
+  - CITY: "Lake Worth"
+    STATE: "TX"
+  - CITY: "Las Colinas"
+    STATE: "TX"
+  - CITY: "Lewisville"
+    STATE: "TX"
+  - CITY: "Mansfield"
+    STATE: "TX"
+  - CITY: "North Richland Hills"
+    STATE: "TX"
+  - CITY: "Pantego"
+    STATE: "TX"
+  - CITY: "Plano"
+    STATE: "TX"
+  - CITY: "Richardson"
+    STATE: "TX"
+  - CITY: "River Oaks"
+    STATE: "TX"
+  - CITY: "Roanoke"
+    STATE: "TX"
+  - CITY: "Saginaw"
+    STATE: "TX"
+  - CITY: "Southlake"
+    STATE: "TX"
+  - CITY: "The Colony"
+    STATE: "TX"
+  - CITY: "Trophy Club"
+    STATE: "TX"
+  - CITY: "University Park"
+    STATE: "TX"
+  - CITY: "Watauga"
+    STATE: "TX"
+  - CITY: "Westlake"
+    STATE: "TX"
+  - CITY: "McKinney"
+    STATE: "TX"
+  - CITY: "Northlake"
+    STATE: "TX"
+  - CITY: "Justin"
+    STATE: "TX"
+  - CITY: "Aledo"
+    STATE: "TX"
+  - CITY: "White Settlement"
+    STATE: "TX"
+
+
+LOCATIONS_MD:
+  - "/bedford-tx/"
+  - "/addison-tx/"
+  - "/arlington-tx/"
+  - "/azle-tx/"
+  - "/carrollton-tx/"
+  - "/cedar-hill-tx/"
+  - "/colleyville-tx/"
+  - "/coppell-tx/"
+  - "/dallas-tx/"
+  - "/desoto-tx/"
+  - "/duncanville-tx/"
+  - "/euless-tx/"
+  - "/farmers-branch-tx/"
+  - "/flower-mound-tx/"
+  - "/fort-worth-tx/"
+  - "/frisco-tx/"
+  - "/grand-prairie-tx/"
+  - "/grapevine-tx/"
+  - "/haltom-city-tx/"
+  - "/haslet-tx/"
+  - "/highland-park-tx/"
+  - "/highland-village-tx/"
+  - "/hurst-tx/"
+  - "/irving-tx/"
+  - "/keller-tx/"
+  - "/kennedale-tx/"
+  - "/lake-worth-tx/"
+  - "/las-colinas-tx/"
+  - "/lewisville-tx/"
+  - "/mansfield-tx/"
+  - "/north-richland-hills-tx/"
+  - "/pantego-tx/"
+  - "/plano-tx/"
+  - "/richardson-tx/"
+  - "/river-oaks-tx/"
+  - "/roanoke-tx/"
+  - "/saginaw-tx/"
+  - "/southlake-tx/"
+  - "/the-colony-tx/"
+  - "/trophy-club-tx/"
+  - "/university-park-tx/"
+  - "/watauga-tx/"
+  - "/westlake-tx/"
+  - "/mckinney-tx/"
+  - "/northlake-tx/"
+  - "/justin-tx/"
+  - "/aledo-tx/"
+  - "/white-settlement-tx/"
+
+
+LOCATIONS_ARRAY:
+  - "Bedford, TX"
+  - "Addison, TX"
+  - "Arlington, TX"
+  - "Azle, TX"
+  - "Carrollton, TX"
+  - "Cedar Hill, TX"
+  - "Colleyville, TX"
+  - "Coppell, TX"
+  - "Dallas, TX"
+  - "DeSoto, TX"
+  - "Duncanville, TX"
+  - "Euless, TX"
+  - "Farmers Branch, TX"
+  - "Flower Mound, TX"
+  - "Fort Worth, TX"
+  - "Frisco, TX"
+  - "Grand Prairie, TX"
+  - "Grapevine, TX"
+  - "Haltom City, TX"
+  - "Haslet, TX"
+  - "Highland Park, TX"
+  - "Highland Village, TX"
+  - "Hurst, TX"
+  - "Irving, TX"
+  - "Keller, TX"
+  - "Kennedale, TX"
+  - "Lake Worth, TX"
+  - "Las Colinas, TX"
+  - "Lewisville, TX"
+  - "Mansfield, TX"
+  - "North Richland Hills, TX"
+  - "Pantego, TX"
+  - "Plano, TX"
+  - "Richardson, TX"
+  - "River Oaks, TX"
+  - "Roanoke, TX"
+  - "Saginaw, TX"
+  - "Southlake, TX"
+  - "The Colony, TX"
+  - "Trophy Club, TX"
+  - "University Park, TX"
+  - "Watauga, TX"
+  - "Westlake, TX"
+  - "McKinney, TX"
+  - "Northlake, TX"
+  - "Justin, TX"
+  - "Aledo, TX"
+  - "White Settlement, TX"
+
+
+# -----------------------------
+# Blog Topics
+# -----------------------------
+BLOG_TOPICS:
+  - "Garage Door Maintenance Tips"
+  - "Choosing the Right Garage Door"
+  - "Emergency Garage Door Repair Advice"
+  - "Benefits of Custom Garage Doors"
+  - "Smart Garage Door Openers Guide"
+
+
+# -----------------------------
+# Contact Information 
+# -----------------------------
+CONTACT:
+  ADDRESS: "1300 Airport Fwy, Bedford, TX 76022"
+  STREET: "1300 Airport Fwy"
+  CITY: "Bedford"
+  STATE: "TX"
+  ZIP: "76022"
+  AREA_CODE: "817"
+  PHONE: "817-859-8877"
+  EMAIL: "service@mikesgaragedoorrepaircenter.com"
+  ADDRESS_VISIBILITY: "VISIBLE"
+
+
+# -----------------------------
+# Business Hours
+# -----------------------------
+HOURS:
+  MONDAY: "7:00 AM - 11:00 PM"
+  TUESDAY: "7:00 AM - 11:00 PM"
+  WEDNESDAY: "7:00 AM - 11:00 PM"
+  THURSDAY: "7:00 AM - 11:00 PM"
+  FRIDAY: "7:00 AM - 11:00 PM"
+  SATURDAY: "7:00 AM - 11:00 PM"
+  SUNDAY: "7:00 AM - 11:00 PM"
+
+
+# -----------------------------
+# Google Maps Integration
+# -----------------------------
+GOOGLE_MAPS:
+  SHORT_LINK: ""
+  FULL_URL: ""
+  EMBED_CODE: ""
+  LATITUDE: ""
+  LONGITUDE: ""
+
+
+# -----------------------------
+# Social Media Links
+# -----------------------------
+SOCIAL_MEDIA:
+  FACEBOOK:
+    URL: "https://www.facebook.com/profile.php?id=61572842862995"
+    EMAIL: "nidaarmitage@gmail.com"
+  TWITTER:
+    URL: ""
+    EMAIL: ""
+  LINKEDIN:
+    URL: ""
+    EMAIL: ""
+  PINTEREST:
+    URL: ""
+    EMAIL: ""
+  NEXTDOOR:
+    URL: ""
+    EMAIL: ""
+  YELP:
+    URL: ""
+    EMAIL: ""
+  INSTAGRAM:
+    URL: ""
+    EMAIL: ""
+  YOUTUBE:
+    URL: ""
+    EMAIL: ""
+
+
+# -----------------------------
+# Meta Information
+# -----------------------------
+META:
+  title: "Mike's Garage Door Repair Center - Garage Door Services in Bedford, TX"
+  description: "Top-rated garage door repair, installation, and maintenance services in Bedford, TX and surrounding areas. Contact Mike's Garage Door Repair Center today!"
+  keywords: "garage door repair, garage door installation, emergency garage door repair, custom garage doors, Bedford TX garage services"
+
+
+# -----------------------------
+# SEO Keywords
+# -----------------------------
+PRIMARY_KEYWORD: "Garage Door Repair Bedford TX"
+
+
+# -----------------------------
+# Call to Action
+# -----------------------------
+CTA_TEXT: "Contact us today for fast and reliable garage door repair services!"
