@@ -45,7 +45,7 @@ export async function generateStaticParams() {
         slug: service.slug,
     }));
 
-    return [...blogCategoryParams, ...oldBlogParams, ...cityParams, ...serviceParams];
+    return [...blogCategoryParams.filter((p) => { const s = Array.isArray(p.slug) ? p.slug[0] : p.slug; return s !== 'blog' && s !== 'our-blog'; }), ...oldBlogParams, ...cityParams, ...serviceParams];
 }
 
 export async function generateMetadata({ params }: DynamicPageProps): Promise<Metadata> {
