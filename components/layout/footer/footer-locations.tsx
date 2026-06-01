@@ -233,26 +233,6 @@ export const FooterLocations = ({
           <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
             <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-background/60 text-center sm:text-left">
               <p>{copyright}</p>
-              <span className="text-background/40 hidden sm:inline">•</span>
-              <div className="flex items-center gap-1 text-xs text-background/40">
-                <span>Website Design &amp; SEO by</span>
-                <Link 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="flex items-center gap-2 transition-colors hover:text-primary" 
-                  href="https://dblseo.com/"
-                >
-                  <Image 
-                    alt="DBLSEO Logo" 
-                    loading="lazy" 
-                    width={30} 
-                    height={30} 
-                    className="object-contain" 
-                    src="/assets/config/dblseo-logo.webp"
-                  />
-                  <span className="font-semibold">DBLSEO.</span>
-                </Link>
-              </div>
             </div>
             <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-background/60">
               <div className="flex items-center gap-4">

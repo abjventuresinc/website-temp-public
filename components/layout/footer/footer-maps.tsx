@@ -275,26 +275,6 @@ export const FooterMaps = ({
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-background/60">
               <p>{copyright}</p>
-              <span className="hidden sm:inline text-background/40">•</span>
-              <div className="flex items-center gap-1 text-xs text-background/40">
-                <span>Website Design &amp; SEO by</span>
-                <Link 
-                  href="https://dblseo.com/" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="flex items-center gap-2 transition-colors hover:text-primary"
-                >
-                  <Image 
-                    alt="DBLSEO Logo" 
-                    loading="lazy" 
-                    width={20} 
-                    height={20} 
-                    className="object-contain" 
-                    src="/assets/config/dblseo-logo.webp"
-                  />
-                  <span className="font-semibold">DBLSEO.</span>
-                </Link>
-              </div>
             </div>
             <div className="flex items-center gap-4 text-sm text-background/60">
               {legalLinks.map((link, index) => (
